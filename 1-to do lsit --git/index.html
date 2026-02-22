@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to do list with drag option</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="js/controler.js" type="module"></script>
+    <!-- <script defer src="script.js"></script> -->
+</head>
+
+<body>
+    <div class="app box">
+        <div class="toolbar">
+            <input type="text" id="addInput" class="box" placeholder="add new to do" spellcheck="false">
+            <button id="addBtn" class="box toolBtn">Add</button>
+            <button id="clearDone" class="box toolBtn">Clear done</button>
+            <button id="reset" class="box toolBtn">Reset</button>
+        </div>
+
+        <div class="columns">
+            <section class="column tasks box">
+                <header class="colHead">
+                    <h2 class="colTitle">Task list</h2>
+                    <div class="counter">
+                        <span class="counterLable">Item:</span>
+                        <span class="taskCounterValue">0</span>
+                    </div>
+                </header>
+                <h1 id="noTodo">no todo</h1>
+                <ul class="list taskList">
+                    <!-- <li id="id" class="item" draggable="true">
+                        <p class="itemText">text</p>
+                        <div class="btns">
+                            <button class="removeBtn">❌</button>
+                            <button class="editBtn">✏️</button>
+                        </div>
+                    </li> -->
+                </ul>
+
+                <p class="tip">Take the item and darw to the other column</p>
+            </section>
+
+            <section class="column done box">
+                <header class="colHead">
+                    <h2 class="colTitle">Done list</h2>
+                    <div class="counter">
+                        <span class="counterLable">Item:</span>
+                        <span class="doneCounterValue">0</span>
+                    </div>
+                </header>
+                <ul class="list doneList"> </ul>
+                <p class="tip">You can drop here item</p>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>

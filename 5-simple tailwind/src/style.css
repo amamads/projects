@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+    --color-orange: #ff9a76;
+    --color-pink: #ff6f91;
+    --color-orange-hover: #d48163;
+    --color-pink-hover: #c75a74;
+    --color-title: #fff;
+    --color-bg-dark: rgba(40, 40, 40, 0.85);
+    --color-item-bg: rgba(255, 255, 255, 0.15);
+    --color-item-hover: rgba(255, 255, 255, 0.25);
+}
+
+@layer base {
+    body {
+        @apply bg-linear-to-r from-orange to-pink text-stone-100
+    }
+
+    button {
+        @apply cursor-pointer font-bold text-lg;
+    }
+
+    input {
+        @apply text-lg;
+    }
+
+    h1,
+    h2,
+    h3 {
+        @apply text-title;
+    }
+}
+@layer components{
+    .toolBtn{
+        @apply bg-pink rounded px-3 hover:bg-orange hover:brightness-105 transition duration-300
+    }
+
+    .column{
+        @apply w-full bg-item-bg grid content-between min-h-92 py-4 text-center relative
+    }
+    .colHead{
+        @apply w-[85%] mx-auto flex justify-between
+    }
+    .tip{
+        @apply w-[85%] mx-auto
+    }
+}

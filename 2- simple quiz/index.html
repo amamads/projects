@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Application UI</title>
+  <link rel="stylesheet" href="src/css/style.css">
+  <script defer type="module" src="./src/js/controler.js"></script>
+</head>
+
+<body>
+  <div class="quiz">
+    <section class="quiz__start active">
+      <h1 class="title">Welcome to the Quiz!</h1>
+      <p class="subtitle">Test your general knowledge with a set of fun and simple questions.
+        Click the button below whenever you are ready.</p>
+      <button class="start-btn btn">Start Quiz</button>
+    </section>
+
+    <section class="quiz__questions">
+      <main class="main"></main>
+      <!-- <main class="main">
+        <div class="question-box">
+          <p class="question-count">
+            Question <span class="curentQuest">1</span>
+          </p>
+          <h2 class="question-text">What is the capital of Iran?</h2>
+        </div>
+
+        <ul class="options">
+          <li><button class="option">Isfahan</button></li>
+          <li><button class="option">Tehran</button></li>
+          <li><button class="option">Shiraz</button></li>
+          <li><button class="option">Mashhad</button></li>
+        </ul>
+
+        <div class="nav">
+          <button class="nav__btn btn--prev btn">Prev</button>
+          <button class="nav__btn btn--next btn">Next</button>
+        </div>
+      </main> -->
+
+      <aside class="sidebar">
+        <div class="details">
+          <p class="counter">
+            <span class="counter-current">1</span>/<span class="counter-total">16</span>
+          </p>
+          <p class="help">Need Help ?</p>
+        </div>
+        <ul class="sidebar-list">
+          <li class="sidebar-item" id="item1">1</li>
+          <li class="sidebar-item" id="item2">2</li>
+          <li class="sidebar-item" id="item3">3</li>
+          <li class="sidebar-item" id="item4">4</li>
+          <li class="sidebar-item" id="item5">5</li>
+          <li class="sidebar-item" id="item6">6</li>
+          <li class="sidebar-item" id="item7">7</li>
+          <li class="sidebar-item" id="item8">8</li>
+          <li class="sidebar-item" id="item9">9</li>
+          <li class="sidebar-item" id="item10">10</li>
+          <li class="sidebar-item" id="item11">11</li>
+          <li class="sidebar-item" id="item12">12</li>
+          <li class="sidebar-item" id="item13">13</li>
+          <li class="sidebar-item" id="item14">14</li>
+          <li class="sidebar-item" id="item15">15</li>
+          <li class="sidebar-item" id="item16">16</li>
+        </ul>
+      </aside>
+    </section>
+
+
+    <section class="quiz__result">
+      <h1 class="workbook-title">Workbook</h1>
+      
+      <ul class="result-answers"></ul>
+
+      <button class="reset btn">Reset</button>
+    </section>
+
+  </div>
+
+  <!-- <button class="btn toggleBtn">toggle</button> -->
+</body>
+</html>

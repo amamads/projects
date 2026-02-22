@@ -1,0 +1,1 @@
+export type Website = {title:string,value:number,isPrimary?:boolean};

@@ -1,0 +1,225 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: Vazir;
+    src: url('./assets/Vazir.woff2') format('woff2'),
+}
+
+@theme {
+    /* --color-primary:#F7C948;
+    --color-textClr:#333;
+    --color-hoverClr:#FFD60A; */
+
+    --color-primary: #FF8C42;
+    --color-secondary: #FFD24C;
+    --color-text: #3A2E1F;
+    --color-background: #FFF;
+    --color-hover: #FFB347;
+    --color-card-bg: #F5F5F5;
+
+    /* primary: '#FF8C42',
+    secondary: '#FFD24C',
+    text: '#3A2E1F',
+    surface: '#F5F5F5',
+    background: '#FFFFFF', */
+}
+
+@layer base {
+    body {
+        @apply text-text font-[Vazir] max-lg:text-xs max-md:text-[10px]
+    }
+
+    section {
+        @apply py-10 w-[85%] mx-auto max-lg:py-7 max-md:py-4 max-md:w-[95%] max-sm:py-10 overflow-hidden
+    }
+
+    a {
+        @apply max-lg:text-xs max-lg:text-nowrap max-md:text-[10px]
+    }
+
+    button {
+        @apply px-4 py-2 rounded-3xl cursor-pointer duration-500 max-lg:px-2 max-lg:py-1.5 max-lg:text-nowrap max-md:px-2 max-md:py-1 max-md:text-[10px]
+    }
+
+    h1 {
+        @apply text-5xl font-bold max-lg:text-4xl max-md:text-3xl
+    }
+
+    h2 {
+        @apply text-3xl max-lg:text-2xl max-md:text-xl
+    }
+
+    h3, li {
+        @apply text-xl max-lg:text-base max-md:text-sm
+    }
+
+    img {
+        @apply w-7
+    }
+
+    svg {
+        @apply w-7 max-lg:w-5 max-md:w-4
+    }
+}
+
+
+@layer utilities {
+    #nav-right>a {
+        @apply hover:text-hover duration-300
+    }
+
+    .nav-menu-option {
+        @apply border-primary border-b-2 px-2 py-3 hover:bg-secondary duration-300 cursor-pointer
+    }
+
+    .nav-menu-option:last-child {
+        border-bottom-width: 0;
+    }
+
+    .nav-menu-option a {
+        @apply text-base
+    }
+
+    .hero-image {
+        @apply w-full h-105 object-cover max-lg:h-95 max-md:h-55
+    }
+
+    #hero::after {
+        content: '';
+        background-image: linear-gradient(to bottom, #ffffff00 55%, var(--color-secondary));
+        @apply absolute right-0 bottom-0 w-full h-[65%] max-md:h-[71%]
+    }
+
+    .service {
+        @apply grid justify-items-center content-center border-1 border-stone-200 shadow py-12 rounded-4xl cursor-pointer hover:bg-secondary duration-500 max-xl:py-5 max-lg:py-4 max-lg:gap-3
+    }
+
+    .service img {
+        @apply w-18 max-lg:w-12
+    }
+
+    .service p {
+        @apply w-[90%]
+    }
+
+    .list-option {
+        @apply flex items-center gap-2
+    }
+
+    .list-option::before {
+        content: "";
+
+        background: url(../public/checkbox.svg) no-repeat center / contain;
+        @apply w-5 h-5 mr-2
+    }
+
+    /* #region */
+
+
+    .divis {
+        --r: 55px;
+        --s: 30px;
+        --x: 20px;
+        --y: 20px;
+        aspect-ratio: 1;
+        border-radius: var(--r);
+        --_m: /calc(2*var(--r)) calc(2*var(--r)) radial-gradient(#000 70%, #0000 72%);
+        --_g: conic-gradient(at calc(100% - var(--r)) var(--r), #0000 25%, #000 0);
+        --_d: (var(--s) + var(--r));
+        mask:
+            calc(100% - var(--_d) - var(--x)) 0 var(--_m),
+            100% calc(var(--_d) + var(--y)) var(--_m),
+            radial-gradient(var(--s) at 100% 0, #0000 99%, #000 calc(100% + 1px)) calc(-1*var(--r) - var(--x)) calc(var(--r) + var(--y)),
+            var(--_g) calc(-1*var(--_d) - var(--x)) 0,
+            var(--_g) 0 calc(var(--_d) + var(--y));
+        mask-repeat: no-repeat;
+
+        @apply max-lg:[--r:40px] max-md:[--r:30px]
+    }
+
+    .bottom-notch2 {
+        --r: 20px;
+        --s: 40px;
+        --a: 20deg;
+        --p: 50%;
+        aspect-ratio: 3/2;
+        background: #ED303C;
+        border-radius: var(--r);
+        --_m: calc(100% - var(--r)), #000 calc(100% - 1px), #0000;
+        --_d: (var(--s) + var(--r))*cos(var(--a));
+        mask:
+            radial-gradient(var(--r) at calc(var(--p) + var(--_d)) var(--_m)),
+            radial-gradient(var(--r) at calc(var(--p) - var(--_d)) var(--_m)),
+            radial-gradient(var(--s) at var(--p) calc(100% + sin(var(--a))*var(--s)),
+                #0000 100%, #000 calc(100% + 1px)) 0 calc(var(--r)*(sin(var(--a)) - 1)) no-repeat,
+            linear-gradient(90deg, #000 calc(var(--p) - var(--_d)), #0000 0 calc(var(--p) + var(--_d)), #000 0);
+
+        /* radial-gradient(var(--r) at calc(var(--p) + var(--_d)) var(--_m))
+            radial-gradient(var(--r) at calc(var(--p) - var(--_d)) var(--_m)),
+            radial-gradient(var(--s) at var(--p) calc(100% + sin(var(--a))*var(--s)),
+                #0000 100%, #000 calc(100% + 1px)) 0 calc(var(--r)*(sin(var(--a)) - 1)) no-repeat,
+            linear-gradient(90deg, #000 calc(var(--p) - var(--_d)), #0000 0 calc(var(--p) + var(--_d)), #000 0); */
+    }
+
+    /* #endregion */
+
+    #demo2 {
+        /* background-image:linear-gradient(to bottom, transparent 90% , red 10%); */
+        background-image: url(../public/app-pic.jpg);
+        /* background-size: 10% 10%; */
+        /* background-clip: ; */
+        /* background-size: 10% ; */
+        /* background-position: center; */
+        background-size: cover;
+        background-clip: 50rem 20rem;
+    }
+
+    #demo {
+        width: 300px;
+        height: 200px;
+        background: #ff8c42;
+
+        /* ماسک اصلی */
+        mask:
+            linear-gradient(#000 0 0),
+            linear-gradient(#000 0 0) 50% top / 50% 50px no-repeat,
+            linear-gradient(#000 0 0) 50% bottom / 50% 50px no-repeat;
+        mask-composite: subtract;
+    }
+
+
+    #dem۲o {
+        width: 300px;
+        height: 200px;
+        background: #ff8c42;
+
+        mask:
+            linear-gradient(#000 0 0) padding-box,
+            linear-gradient(#000 0 0) content-box;
+        mask-composite: xor;
+        mask-composite: exclude;
+
+        padding-bottom: 50px;
+        /* این قسمت سوراخ پایین رو تعیین می‌کنه */
+        mask-mode: alpha;
+
+        /* width: 300px;
+        height: 200px;
+        background: #ff8c42;
+        padding: 40px;
+
+        background:
+            linear-gradient(red 0 0) bottom 80%,
+            linear-gradient(blue 0 0); */
+
+        /* mask-composite: subtract; */
+        /* mask-composite: exclude; */
+        /* -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+
+  -webkit-mask-composite: xor;  
+          mask-composite: exclude; */
+    }
+
+}

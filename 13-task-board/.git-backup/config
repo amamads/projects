@@ -1,0 +1,23 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/amamads/13-task-board.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	pushurl = https://github.com/amamads/13-task-board.git
+[branch "my-code"]
+	remote = origin
+	merge = refs/heads/my-code
+	vscode-merge-base = origin/demo
+	vscode-merge-base = origin/demo
+	gk-last-accessed = 2025-12-18T07:34:52.731Z
+[branch "atomic-structure"]
+	vscode-merge-base = origin/demo
+	gk-last-accessed = 2026-02-13T11:49:23.312Z
+	gk-last-modified = 2025-12-31T06:51:52.556Z
+	remote = origin
+	merge = refs/heads/atomic-structure

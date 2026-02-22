@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="stylesheet" href="src/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>restaurant-cafe</title>
+</head>
+
+<body class="text-center bg-background max-w-[1536px] mx-auto">
+  <nav class="top-0 w-full h-16 flex justify-between items-center px-4">
+
+    <div id="nav-right" class="flex gap-10 max-md:gap-5 items-center relative">
+      <a href="#" class="flex items-center gap-1 text-primary font-bold text-xl max-md:text-base">
+        <spna>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12.8659 3.00017L22.1034 19H23V21H1V19H1.89638L11.1339 3.00017C11.41 2.52187 12.0216 2.358 12.4999 2.63414C12.6519 2.72191 12.7782 2.84815 12.8659 3.00017ZM12 12.9248L8.65869 19H15.3414L12 12.9248Z">
+            </path>
+          </svg>
+        </spna>مهین شاپ
+      </a>
+
+      <a class="max-sm:hidden" href="#">بلاگ</a>
+      <a class="max-sm:hidden" href="#">تعرفه ها</a>
+      <a class="max-sm:hidden" href="#">نمونه مشتریان</a>
+      <a class="max-sm:hidden" href="#">درباره ما</a>
+      <a class="max-sm:hidden" href="#">تماس با ما</a>
+
+      <button id="nav-menu-btn" class="text-primary hover:scale-110 hover:text-secondary hidden max-sm:inline">
+        <svg class="w-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"></path>
+        </svg>
+      </button>
+
+      <ul id="nav-menu" class="nav-menu bg-white absolute left-[-20%] top-[100%] z-1 border-2 border-primary rounded-2xl overflow-hidden hidden">
+        <li class="nav-menu-option"> <a href="#">بلاگ</a></li>
+        <li class="nav-menu-option"> <a href="#">تعرفه ها</a></li>
+        <li class="nav-menu-option"> <a href="#">نمونه مشتریان</a></li>
+        <li class="nav-menu-option"> <a href="#">درباره ما</a></li>
+        <li class="nav-menu-option"> <a href="#">تماس با ما</a></li>
+      </ul>
+    </div>
+
+    <div id="nav-left" class="flex gap-10 max-lg:gap-5  items-center">
+      <a href="#" class="text-primary flex flex-row-reverse items-center hover:text-hover duration-300">-۰۲۱<span
+          class="font-bold">۲۸۴۲-۷۸۸۱</span>
+        <span class="bg-amber-200 border-1 border-amber-500 rounded-xl p-1 max-lg:p-0.5 ml-1">
+          <svg class="w-5 max-lg:w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M21 16.42V19.9561C21 20.4811 20.5941 20.9167 20.0705 20.9537C19.6331 20.9846 19.2763 21 19 21C10.1634 21 3 13.8366 3 5C3 4.72371 3.01545 4.36687 3.04635 3.9295C3.08337 3.40588 3.51894 3 4.04386 3H7.5801C7.83678 3 8.05176 3.19442 8.07753 3.4498C8.10067 3.67907 8.12218 3.86314 8.14207 4.00202C8.34435 5.41472 8.75753 6.75936 9.3487 8.00303C9.44359 8.20265 9.38171 8.44159 9.20185 8.57006L7.04355 10.1118C8.35752 13.1811 10.8189 15.6425 13.8882 16.9565L15.4271 14.8019C15.5572 14.6199 15.799 14.5573 16.001 14.6532C17.2446 15.2439 18.5891 15.6566 20.0016 15.8584C20.1396 15.8782 20.3225 15.8995 20.5502 15.9225C20.8056 15.9483 21 16.1633 21 16.42Z">
+            </path>
+          </svg>
+        </span></a>
+      <button class="bg-primary flex flex-row-reverse gap-0.5 hover:bg-hover">ورود|ثبت نام
+        <span><img class="max-lg:w-5 max-md:w-4" src="login.svg" alt=""></span>
+      </button>
+    </div>
+  </nav>
+
+  <header id="hero" class="bg-secondary text-white py-10 rounded-b-[9rem] overflow-hidden relative">
+    <div class="topic grid justify-items-center gap-3 mb-6">
+      <button class="bg-[#ffffff34] hover:bg-[#ffffff79]">App&Website</button>
+      <h1 class="pb-3 max-md:pb-1">اپلیکیشن و سایت <span class="text-primary">کافه رستوران</span></h1>
+      <h3>فروش و سفارش آنلاین غذا <span class="text-primary font-bold">+</span> منوی QR</h3>
+
+      <div class="grid grid-cols-2 gap-3 text-black text-[0.8rem]">
+        <button class="bg-white hover:bg-[#e7e7e7]">درخواست مشاور</button>
+        <button class="flex bg-primary items-center hover:bg-hover max-md:gap-0.5">ساخت رایگان <img
+            class="w-6 max-md:w-4" src="arrow-left.svg" alt="arrow-left" class="w-8" /></button>
+      </div>
+    </div>
+
+    <!-- <div class="pics grid grid-cols-4 px-8 gap-6 max-lg:gap-4"> -->
+    <div class="pics grid grid-cols-4 max-md:grid-cols-2 px-8 gap-6 max-lg:gap-4 max-md:gap-1">
+      <img src="img1.jpg"
+        class="hero-image hero-image1 hero-image rounded-t-[11rem] rounded-br-[9rem] max-md:rounded-none max-md:rounded-tr-full"
+        alt="">
+      <!-- <img src="img1.jpg" class="hero-image hero-image1 hero-image" alt=""> -->
+      <img src="img2.jpg" class="hero-image hero-image2 rounded-t-[11rem]  max-md:rounded-none max-md:rounded-tl-full"
+        alt="">
+      <img src="img3.jpg" class="hero-image hero-image3 rounded-t-[11rem]  max-md:rounded-none max-md:rounded-br-full"
+        alt="">
+      <img src="img4.jpg"
+        class="hero-image hero-image4 rounded-t-[11rem] rounded-bl-[9rem] max-md:rounded-none max-md:rounded-bl-full"
+        alt="">
+    </div>
+  </header>
+
+  <section id="servieces">
+    <h2 id="servieces-title" class="py-12 servieces-title"><span class="text-secondary">امکاناتی</span> که در اختیارتان
+      قرار می‌گیرد</h2>
+    <ul class="grid grid-cols-5 max-md:grid-cols-4 max-sm:grid-cols-3 gap-8">
+      <li class="service">
+        <img src="checked-list.svg" alt="checked-list">
+        <p>تعیین موجودی روز هر آیتم</p>
+      </li>
+      <li class="service">
+        <img src="calendar.svg" alt="calendar">
+        <p>تنظیم بازه ارائه سرویس</p>
+      </li>
+      <li class="service">
+        <img src="offer.svg" alt="offers">
+        <p>فروش ویژه روزانه</p>
+      </li>
+      <li class="service">
+        <img src="basket.svg" alt="basket">
+        <p>نمایش خرید های قبلی</p>
+      </li>
+      <li class="service">
+        <img src="menu.svg" alt="menu">
+        <p>منوی جذاب و بروز</p>
+      </li>
+      <li class="service">
+        <img src="rating.svg" alt="rating">
+        <p>امکان نظرسنجی</p>
+      </li>
+      <li class="service">
+        <img src="translate.svg" alt="trasnlate">
+        <p>چند زبانه</p>
+      </li>
+      <li class="service">
+        <img src="online-shop.svg" alt="online-shop">
+        <p>فروش آنلاین</p>
+      </li>
+      <li class="service max-md:col-[2/2] max-sm:col-auto">
+        <img src="users.svg" alt="users">
+        <p>باشگاه مشتریان</p>
+      </li>
+      <li class="service max-md:col-[3/3] max-sm:col-[2/3]">
+        <img src="chart.svg" alt="chart">
+        <p>گزارش گیری</p>
+      </li>
+    </ul>
+  </section>
+
+  <section id="web-features" class="flex justify-between gap-15 items-center max-xl:gap-5 max-sm:flex-col max-sm:gap-8">
+    <div class="text-right flex-1 grid gap-6 max-sm:gap-3">
+      <h2 class="max-sm:text-center max-sm:text-2xl"><span class="text-primary">وب سایت</span> سفارش کافه و رستوران</h2>
+      <p class="max-sm:text-sm">
+        با این وب سایت مشتری ها به راحتی میتونن منوی شما رو ببین. غذا یا نوشیدنی دلخواهشون رو سفارش بدن و حتی میز رزرو
+        کنن تجربه‌ای سریع ساده و خوشمزه برای همه!
+      </p>
+
+      <ul class="list grid gap-2">
+        <li class="list-option">منوی دیجیتال</li>
+        <li class="list-option">امکان ثیت سفارش انلاین (پیش سفارش یا فوری)</li>
+        <li class="list-option">پرداخت آنلاین یا حضوری</li>
+        <li class="list-option">پنل مدیریت ساده برای رستوان/کافه</li>
+        <li class="list-option">نسخه موبایل پسند و ریسپانسیو</li>
+      </ul>
+    </div>
+
+    <div class="flex-1 px-10 py-15 bg-secondary rounded-[5rem] ">
+      <div class="rounded-4xl overflow-hidden">
+        <img src="site-pic.jpg" alt="site-picture" class="w-full h-full">
+      </div>
+    </div>
+  </section>
+  <section id="app-features" class="flex flex-row-reverse justify-between gap-15 items-center max-xl:gap-5 max-sm:flex-col max-sm:gap-8">
+    <div class="text-right flex-1 grid gap-6 max-sm:gap-3">
+      <h2 class="max-sm:text-center max-sm:text-2xl"><span class="text-primary">اپلیکیشن</span> سفارش کافه و رستوران</h2>
+      <p class="max-sm:text-sm">
+        با این وب سایت مشتری ها به راحتی میتونن منوی شما رو ببین. غذا یا نوشیدنی دلخواهشون رو سفارش بدن و حتی میز رزرو
+        کنن تجربه‌ای سریع ساده و خوشمزه برای همه!
+      </p>
+
+      <ul class="list grid gap-2">
+        <li class="list-option">منوی دیجیتال</li>
+        <li class="list-option">امکان ثیت سفارش انلاین (پیش سفارش یا فوری)</li>
+        <li class="list-option">پرداخت آنلاین یا حضوری</li>
+        <li class="list-option">پنل مدیریت ساده برای رستوان/کافه</li>
+        <li class="list-option">نسخه موبایل پسند و ریسپانسیو</li>
+      </ul>
+    </div>
+
+    <div class="flex-1 px-10 py-15 bg-secondary rounded-[5rem] ">
+      <div class="rounded-4xl overflow-hidden">
+        <img src="app-pic.jpg" alt="site-picture" class="w-full h-full">
+      </div>
+    </div>
+  </section>
+
+    <section id="menu" class="grid gap-20 max-xl:gap-15 max-lg:gap-8">
+    <div class="text-right grid gap-6 max-lg:gap-4">
+      <h2><span class="text-primary">منوی آنلاین</span> کافه و رستوران</h2>
+      <p>
+        با این وب سایت مشتری ها به راحتی میتونن منوی شما رو ببین. غذا یا نوشیدنی دلخواهشون رو سفارش بدن و حتی میز رزرو
+        کنن تجربه‌ای سریع ساده و خوشمزه برای همه!
+        با این وب سایت مشتری ها به راحتی میتونن منوی شما رو ببین. غذا یا نوشیدنی دلخواهشون رو سفارش بدن و حتی میز رزرو
+        کنن تجربه‌ای سریع ساده و خوشمزه برای همه!
+        با این وب سایت مشتری ها به راحتی میتونن منوی شما رو ببین. غذا یا نوشیدنی دلخواهشون رو سفارش بدن و حتی میز رزرو
+        کنن تجربه‌ای سریع ساده و خوشمزه برای همه!
+      </p>
+
+      <ul class="list flex flex-wrap gap-10 gap-y-4">
+        <li class="list-option text-nowrap">منوی دیجیتال</li>
+        <li class="list-option text-nowrap">امکان ثیت سفارش انلاینی</li>
+        <li class="list-option text-nowrap">پرداخت آنلاین یا حضوری</li>
+        <li class="list-option text-nowrap">پنل مدیریت ساده برای رستوان/کافه</li>
+      </ul>
+    </div>
+
+    <div class="flex max-sm:flex-col items-center gap-10">
+      <div class="relative flex-3 rounded-4xl">
+        <div class="absolute bottom-0 right-[50%] translate-x-[50%] bg-white rounded-t-4xl px-3 pt-6 pb-1">
+          <buttona class="bg-stone-200 z-1 py-3 px-5 rounded-4xl text-nowrap">
+            اسکن کن منو با QrCode
+          </buttona>
+        </div>
+
+        <div id="scan-me" class=" w-full h-full flex justify-center items-center ">
+          <img src="qr2.jpg" alt="site-picture" class="w-auto rounded-4xl">
+        </div>
+      </div>
+
+      <div class="relative flex-2 max-sm:w-[65%]">
+        <buttona class="absolute top-0 right-0  bg-black p-4 rounded-4xl">
+          <svg class="text-white w-15 max-lg:w-12 max-md:w-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M15 3H21V8H19V5H15V3ZM9 3V5H5V8H3V3H9ZM15 21V19H19V16H21V21H15ZM9 21H3V16H5V19H9V21ZM3 11H21V13H3V11Z">
+            </path>
+          </svg>
+        </buttona>
+
+        <div class="divis w-full h-full rounded-4xl bg-secondary flex justify-center items-center">
+          <img src="qr-code.svg" alt="site-picture" class="w-[60%]">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <div id="demo" class="h-60 aspect-video bg-gray-500 mx-auto"></div> -->
+
+  <div class="blackBox w-auto h-100"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>

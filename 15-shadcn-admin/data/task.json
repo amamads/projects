@@ -1,0 +1,142 @@
+[
+  {
+    "taskId": 1,
+    "title": "Setup project structure",
+    "status": "backlog",
+    "priority": "high",
+    "tyep": "feature"
+  },
+  {
+    "taskId": 2,
+    "title": "Create login page UI",
+    "status": "todo",
+    "priority": "medium",
+    "tyep": "feature"
+  },
+  {
+    "taskId": 3,
+    "title": "Fix authentication bug",
+    "status": "in Progress",
+    "priority": "high",
+    "tyep": "bug"
+  },
+  {
+    "taskId": 4,
+    "title": "Write API documentation",
+    "status": "todo",
+    "priority": "low",
+    "tyep": "documentation"
+  },
+  {
+    "taskId": 5,
+    "title": "Implement task filtering",
+    "status": "backlog",
+    "priority": "medium",
+    "tyep": "feature"
+  },
+  {
+    "taskId": 6,
+    "title": "Fix sidebar responsiveness",
+    "status": "done",
+    "priority": "medium",
+    "tyep": "bug"
+  },
+  {
+    "taskId": 7,
+    "title": "Add dark mode support",
+    "status": "in Progress",
+    "priority": "high",
+    "tyep": "feature"
+  },
+  {
+    "taskId": 8,
+    "title": "Update README file",
+    "status": "todo",
+    "priority": "low",
+    "tyep": "documentation"
+  },
+  {
+    "taskId": 9,
+    "title": "Optimize dashboard performance",
+    "status": "backlog",
+    "priority": "high",
+    "tyep": "feature"
+  },
+  {
+    "taskId": 10,
+    "title": "Fix chart rendering issue",
+    "status": "in Progress",
+    "priority": "medium",
+    "tyep": "bug"
+  },
+  {
+    "taskId": 11,
+    "title": "Add pagination to task list",
+    "status": "todo",
+    "priority": "medium",
+    "tyep": "feature"
+  },
+  {
+    "taskId": 12,
+    "title": "Improve form validation",
+    "status": "done",
+    "priority": "high",
+    "tyep": "feature"
+  },
+  {
+    "taskId": 13,
+    "title": "Fix typo in labels",
+    "status": "done",
+    "priority": "low",
+    "tyep": "bug"
+  },
+  {
+    "taskId": 14,
+    "title": "Create onboarding guide",
+    "status": "backlog",
+    "priority": "low",
+    "tyep": "documentation"
+  },
+  {
+    "taskId": 15,
+    "title": "Refactor task reducer",
+    "status": "in Progress",
+    "priority": "medium",
+    "tyep": "feature"
+  },
+  {
+    "taskId": 16,
+    "title": "Fix logout redirect issue",
+    "status": "todo",
+    "priority": "high",
+    "tyep": "bug"
+  },
+  {
+    "taskId": 17,
+    "title": "Add unit tests for tasks",
+    "status": "backlog",
+    "priority": "medium",
+    "tyep": "feature"
+  },
+  {
+    "taskId": 18,
+    "title": "Document task status flow",
+    "status": "todo",
+    "priority": "low",
+    "tyep": "documentation"
+  },
+  {
+    "taskId": 19,
+    "title": "Improve accessibility (a11y)",
+    "status": "in Progress",
+    "priority": "high",
+    "tyep": "feature"
+  },
+  {
+    "taskId": 20,
+    "title": "Remove deprecated components",
+    "status": "canceled",
+    "priority": "medium",
+    "tyep": "feature"
+  }
+]

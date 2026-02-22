@@ -1,0 +1,770 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "iphone-13",
+      "title": "Apple iPhone 13",
+      "description": "128GB, Blue",
+      "price": 640,
+      "discount": 10,
+      "finalPrice": 576,
+      "rate": 4.5,
+      "rateCount": 120,
+      "brand": "Apple",
+      "status": "active",
+      "options": {
+        "colors": [
+          "blue",
+          "black",
+          "white"
+        ],
+        "storage": [
+          "128GB",
+          "256GB"
+        ]
+      },
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13.jpg",
+        "https://www.apple.com/v/iphone-13/c/images/overview/colors/blue__f3q6q6n8zq2a_large.jpg"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "samsung-galaxy-s21",
+      "title": "Samsung Galaxy S21",
+      "description": "256GB, Phantom Gray",
+      "price": 540,
+      "discount": 5,
+      "finalPrice": 513,
+      "rate": 4,
+      "rateCount": 95,
+      "brand": "Samsung",
+      "status": "active",
+      "options": {
+        "colors": [
+          "gray",
+          "white",
+          "violet"
+        ],
+        "storage": [
+          "128GB",
+          "256GB"
+        ]
+      },
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s21-5g-r.jpg",
+        "https://m.gsmarena.com/samsung_galaxy_s21_5g-pictures-10626.php"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "xiaomi-12t",
+      "title": "Xiaomi 12T",
+      "description": "128GB, Blue",
+      "price": 440,
+      "discount": 0,
+      "finalPrice": 440,
+      "rate": 3,
+      "rateCount": 60,
+      "brand": "Xiaomi",
+      "status": "active",
+      "options": {
+        "colors": [
+          "blue",
+          "black"
+        ],
+        "storage": [
+          "128GB"
+        ]
+      },
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-12t.jpg"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "oneplus-10",
+      "title": "OnePlus 10",
+      "description": "256GB, Green",
+      "price": 560,
+      "discount": 2.5,
+      "finalPrice": 532,
+      "rate": 4.3,
+      "rateCount": 80,
+      "brand": "OnePlus",
+      "status": "active",
+      "options": {
+        "colors": [
+          "green",
+          "black"
+        ],
+        "storage": [
+          "128GB",
+          "256GB"
+        ]
+      },
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/oneplus-10-pro-.jpg"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "google-pixel-7",
+      "title": "Google Pixel 7",
+      "description": "128GB, White",
+      "price": 500,
+      "discount": 10,
+      "finalPrice": 450,
+      "rate": 5,
+      "rateCount": 70,
+      "brand": "Google",
+      "status": "active",
+      "options": {
+        "colors": [
+          "white",
+          "black"
+        ],
+        "storage": [
+          "128GB"
+        ]
+      },
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-7.jpg",
+        "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-7-5g.jpg"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "samsung-galaxy-zfold",
+      "title": "Samsung Galaxy Z Fold",
+      "description": "512GB, Silver",
+      "price": 1600,
+      "discount": 0,
+      "finalPrice": 1600,
+      "rate": 3.5,
+      "rateCount": 30,
+      "brand": "Samsung",
+      "status": "active",
+      "options": {
+        "colors": [
+          "silver",
+          "black"
+        ],
+        "storage": [
+          "512GB"
+        ]
+      },
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-fold3-5g.jpg"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "iphone-12",
+      "title": "Apple iPhone 12",
+      "description": "64GB, Black",
+      "price": 500,
+      "discount": 0,
+      "finalPrice": 500,
+      "rate": 5,
+      "rateCount": 110,
+      "brand": "Apple",
+      "status": "active",
+      "options": {
+        "colors": [
+          "black",
+          "white"
+        ],
+        "storage": [
+          "64GB",
+          "128GB"
+        ]
+      },
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12.jpg"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "xiaomi-redmi-note-11",
+      "title": "Xiaomi Redmi Note 11",
+      "description": "128GB, Black",
+      "price": 240,
+      "discount": 0,
+      "finalPrice": 240,
+      "rate": 4,
+      "rateCount": 50,
+      "brand": "Xiaomi",
+      "status": "active",
+      "options": {
+        "colors": [
+          "black",
+          "blue"
+        ],
+        "storage": [
+          "128GB"
+        ]
+      },
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-11-global.jpg"
+      ]
+    },
+    {
+      "id": "9",
+      "name": "oneplus-nord-2",
+      "title": "OnePlus Nord 2",
+      "description": "128GB, Gray",
+      "price": 360,
+      "discount": 3,
+      "finalPrice": 342,
+      "rate": 4.1,
+      "rateCount": 40,
+      "brand": "OnePlus",
+      "status": "active",
+      "options": {
+        "colors": [
+          "gray",
+          "blue"
+        ],
+        "storage": [
+          "128GB"
+        ]
+      },
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/oneplus-nord-2-5g.jpg"
+      ]
+    },
+    {
+      "id": "10",
+      "name": "google-pixel-6a",
+      "title": "Google Pixel 6a",
+      "description": "128GB, Black",
+      "price": 400,
+      "discount": 5,
+      "finalPrice": 380,
+      "rate": 4.5,
+      "rateCount": 65,
+      "brand": "Google",
+      "status": "active",
+      "options": {
+        "colors": [
+          "black",
+          "white"
+        ],
+        "storage": [
+          "128GB"
+        ]
+      },
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-6a.jpg"
+      ]
+    },
+    {
+      "id": "11",
+      "name": "samsung-galaxy-a52",
+      "title": "Samsung Galaxy A52",
+      "description": "128GB, Blue",
+      "price": 300,
+      "discount": 0,
+      "finalPrice": 300,
+      "rate": 5,
+      "rateCount": 45,
+      "brand": "Samsung",
+      "status": "active",
+      "options": {
+        "colors": [
+          "blue",
+          "black",
+          "white"
+        ],
+        "storage": [
+          "128GB"
+        ]
+      },
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a52-5g.jpg"
+      ]
+    },
+    {
+      "id": "12",
+      "name": "iphone-se",
+      "title": "Apple iPhone SE",
+      "description": "64GB, Red",
+      "price": 360,
+      "discount": 0,
+      "finalPrice": 360,
+      "rate": 2.5,
+      "rateCount": 30,
+      "brand": "Apple",
+      "status": "active",
+      "options": {
+        "colors": [
+          "red",
+          "white"
+        ],
+        "storage": [
+          "64GB",
+          "128GB"
+        ]
+      },
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-se-2020.jpg"
+      ]
+    },
+    {
+      "id": "13",
+      "name": "xiaomi-11t",
+      "title": "Xiaomi 11T",
+      "description": "128GB, Gray",
+      "price": 420,
+      "discount": 5,
+      "finalPrice": 399,
+      "rate": 3,
+      "rateCount": 55,
+      "brand": "Xiaomi",
+      "status": "active",
+      "options": {
+        "colors": [
+          "gray",
+          "blue"
+        ],
+        "storage": [
+          "128GB",
+          "256GB"
+        ]
+      },
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-11t.jpg"
+      ]
+    },
+    {
+      "id": "14",
+      "name": "oneplus-9",
+      "title": "OnePlus 9",
+      "description": "128GB, Blue",
+      "price": 480,
+      "discount": 0,
+      "finalPrice": 480,
+      "rate": 2,
+      "rateCount": 70,
+      "brand": "OnePlus",
+      "status": "active",
+      "options": {
+        "colors": [
+          "blue",
+          "black"
+        ],
+        "storage": [
+          "128GB"
+        ]
+      },
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/oneplus-9.jpg"
+      ]
+    },
+    {
+      "id": "15",
+      "name": "google-pixel-7a",
+      "title": "Google Pixel 7a",
+      "description": "128GB, White",
+      "price": 460,
+      "discount": 5,
+      "finalPrice": 437,
+      "rate": 1.5,
+      "rateCount": 50,
+      "brand": "Google",
+      "status": "active",
+      "options": {
+        "colors": [
+          "white",
+          "black"
+        ],
+        "storage": [
+          "128GB"
+        ]
+      },
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-7a.jpg"
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "1f7d2f0e-7b65-4f2e-8f41-9d3c9bde0a11",
+      "username": "user01",
+      "email": "user011@test.com",
+      "password": "12345678",
+      "firstName": "Ali",
+      "lastName": "Ahmadi",
+      "phone": "09190000001",
+      "gender": "male",
+      "maritalStatus": "single",
+      "role": "user",
+      "birthDate": "1998-03-12T00:00:00.000Z"
+    },
+    {
+      "id": "4cdb28b2-9d5b-4b39-bc45-1a8c9f64f212",
+      "username": "user02",
+      "email": "yahohoho@test.com",
+      "password": "12345678",
+      "firstName": "Sara",
+      "lastName": "Karimi",
+      "phone": "09190000002",
+      "gender": "female",
+      "maritalStatus": "married",
+      "role": "admin",
+      "birthDate": "1995-07-21T00:00:00.000Z"
+    },
+    {
+      "id": "6a9a6c10-14a2-4f5f-9e17-7c7f8a1e3b44",
+      "username": "user04",
+      "email": "user04@test.com",
+      "password": "12345678",
+      "firstName": "Niloofar",
+      "lastName": "Rahimi",
+      "phone": "09190000004",
+      "gender": "female",
+      "maritalStatus": "single",
+      "role": "user",
+      "birthDate": "1999-01-19T00:00:00.000Z"
+    },
+    {
+      "id": "d93dbff6-29cb-4bb6-a71b-1f9d2dc09e55",
+      "username": "user05",
+      "email": "user05@test.com",
+      "password": "12345678",
+      "firstName": "Mohammad",
+      "lastName": "Ghasemi",
+      "phone": "09190000005",
+      "gender": "male",
+      "maritalStatus": "married",
+      "role": "admin",
+      "birthDate": "1994-09-30T00:00:00.000Z"
+    },
+    {
+      "id": "2a6c0c54-f7a4-4e1d-b88e-8fef9e0a6b06",
+      "username": "user06",
+      "email": "user06@test.com",
+      "password": "12345678",
+      "firstName": "Fatemeh",
+      "lastName": "Moradi",
+      "phone": "09190000006",
+      "gender": "female",
+      "maritalStatus": "married",
+      "role": "user",
+      "birthDate": "1996-05-14T00:00:00.000Z"
+    },
+    {
+      "id": "8a2c3d9c-3c4e-41bb-baf0-03a7cb7f0707",
+      "username": "user07",
+      "email": "user07@test.com",
+      "password": "12345678",
+      "firstName": "Hossein",
+      "lastName": "Shirazi",
+      "phone": "09190000007",
+      "gender": "male",
+      "maritalStatus": "single",
+      "role": "user",
+      "birthDate": "2001-08-08T00:00:00.000Z"
+    },
+    {
+      "id": "9f5d0ef5-20e3-4a33-a3e4-47c89dcb0808",
+      "username": "user08",
+      "email": "user08@test.com",
+      "password": "12345678",
+      "firstName": "Maryam",
+      "lastName": "Jafari",
+      "phone": "09190000008",
+      "gender": "female",
+      "maritalStatus": "single",
+      "role": "user",
+      "birthDate": "1997-12-02T00:00:00.000Z"
+    },
+    {
+      "id": "a0c8f8ab-89b6-4e64-b4d1-18c5f4e70909",
+      "username": "user09",
+      "email": "user09@test.com",
+      "password": "12345678",
+      "firstName": "Amir",
+      "lastName": "Salehi",
+      "phone": "09190000009",
+      "gender": "female",
+      "maritalStatus": "married",
+      "role": "admin",
+      "birthDate": "1993-04-27T00:00:00.000Z"
+    },
+    {
+      "id": "c9a0c4d7-9f2a-4e14-9a3c-5fbe6dca1010",
+      "username": "user10",
+      "email": "user10@test.com",
+      "password": "12345678",
+      "firstName": "Zahra",
+      "lastName": "Abbasi",
+      "phone": "09190000010",
+      "gender": "female",
+      "maritalStatus": "single",
+      "role": "user",
+      "birthDate": "2002-06-18T00:00:00.000Z"
+    },
+    {
+      "id": "a11f8f71-2b5c-4c4c-b1a1-111111111111",
+      "username": "user11",
+      "email": "user11@test.com",
+      "password": "12345678",
+      "firstName": "Mehdi",
+      "lastName": "Kazemi",
+      "phone": "09190000011",
+      "gender": "male",
+      "maritalStatus": "single",
+      "role": "user",
+      "birthDate": "1999-10-10T00:00:00.000Z"
+    },
+    {
+      "id": "b22f8f72-2b5c-4c4c-b1a1-222222222222",
+      "username": "user12",
+      "email": "user12@test.com",
+      "password": "12345678",
+      "firstName": "Leila",
+      "lastName": "Naseri",
+      "phone": "09190000012",
+      "gender": "female",
+      "maritalStatus": "married",
+      "role": "user",
+      "birthDate": "1996-02-25T00:00:00.000Z"
+    },
+    {
+      "id": "c33f8f73-2b5c-4c4c-b1a1-333333333333",
+      "username": "user13",
+      "email": "user13@test.com",
+      "password": "12345678",
+      "firstName": "Saeed",
+      "lastName": "Azizi",
+      "phone": "09190000013",
+      "gender": "male",
+      "maritalStatus": "single",
+      "role": "user",
+      "birthDate": "2000-05-03T00:00:00.000Z"
+    },
+    {
+      "id": "d44f8f74-2b5c-4c4c-b1a1-444444444444",
+      "username": "user14",
+      "email": "user14@test.com",
+      "password": "12345678",
+      "firstName": "Parisa",
+      "lastName": "Ebrahimi",
+      "phone": "09190000014",
+      "gender": "female",
+      "maritalStatus": "single",
+      "role": "user",
+      "birthDate": "1997-09-09T00:00:00.000Z"
+    },
+    {
+      "id": "e55f8f75-2b5c-4c4c-b1a1-555555555555",
+      "username": "user15",
+      "email": "user15@test.com",
+      "password": "12345678",
+      "firstName": "Hamed",
+      "lastName": "Yazdani",
+      "phone": "09190000015",
+      "gender": "male",
+      "maritalStatus": "married",
+      "role": "admin",
+      "birthDate": "1992-01-15T00:00:00.000Z"
+    },
+    {
+      "id": "f66f8f76-2b5c-4c4c-b1a1-666666666666",
+      "username": "user16",
+      "email": "user16@test.com",
+      "password": "12345678",
+      "firstName": "Elham",
+      "lastName": "Shams",
+      "phone": "09190000016",
+      "gender": "female",
+      "maritalStatus": "single",
+      "role": "user",
+      "birthDate": "2001-03-28T00:00:00.000Z"
+    },
+    {
+      "id": "a77f8f77-2b5c-4c4c-b1a1-777777777777",
+      "username": "user17",
+      "email": "user17@test.com",
+      "password": "12345678",
+      "firstName": "Majid",
+      "lastName": "Rostami",
+      "phone": "09190000017",
+      "gender": "male",
+      "maritalStatus": "single",
+      "role": "user",
+      "birthDate": "1998-08-01T00:00:00.000Z"
+    },
+    {
+      "id": "b88f8f78-2b5c-4c4c-b1a1-888888888888",
+      "username": "user18",
+      "email": "user18@test.com",
+      "password": "12345678",
+      "firstName": "Samaneh",
+      "lastName": "Taheri",
+      "phone": "09190000018",
+      "gender": "female",
+      "maritalStatus": "married",
+      "role": "user",
+      "birthDate": "1995-11-11T00:00:00.000Z"
+    },
+    {
+      "id": "c99f8f79-2b5c-4c4c-b1a1-999999999999",
+      "username": "user19",
+      "email": "user19@test.com",
+      "password": "12345678",
+      "firstName": "Pouya",
+      "lastName": "Fathi",
+      "phone": "09190000019",
+      "gender": "male",
+      "maritalStatus": "single",
+      "role": "user",
+      "birthDate": "2002-12-12T00:00:00.000Z"
+    },
+    {
+      "id": "d00f8f80-2b5c-4c4c-b1a1-000000000000",
+      "username": "user20",
+      "email": "user20@test.com",
+      "password": "12345678",
+      "firstName": "Arezoo",
+      "lastName": "Rahbar",
+      "phone": "09190000020",
+      "gender": "female",
+      "maritalStatus": "single",
+      "role": "user",
+      "birthDate": "1999-06-06T00:00:00.000Z"
+    },
+    {
+      "id": "e11a9a81-aaaa-4bbb-bbbb-aaaaaaaaaaaa",
+      "username": "user21",
+      "email": "user21@test.com",
+      "password": "12345678",
+      "firstName": "Farhad",
+      "lastName": "Miri",
+      "phone": "09190000021",
+      "gender": "male",
+      "maritalStatus": "married",
+      "role": "admin",
+      "birthDate": "1991-04-04T00:00:00.000Z"
+    },
+    {
+      "id": "f22b9b82-bbbb-4ccc-cccc-bbbbbbbbbbbb",
+      "username": "user22",
+      "email": "user22@test.com",
+      "password": "12345678",
+      "firstName": "Nazanin",
+      "lastName": "Sharifi",
+      "phone": "09190000022",
+      "gender": "female",
+      "maritalStatus": "single",
+      "role": "user",
+      "birthDate": "2000-02-02T00:00:00.000Z"
+    },
+    {
+      "id": "a33c9c83-cccc-4ddd-dddd-cccccccccccc",
+      "username": "user23",
+      "email": "user23@test.com",
+      "password": "12345678",
+      "firstName": "Soroush",
+      "lastName": "Hejazi",
+      "phone": "09190000023",
+      "gender": "male",
+      "maritalStatus": "single",
+      "role": "user",
+      "birthDate": "1997-07-07T00:00:00.000Z"
+    },
+    {
+      "id": "b44d9d84-dddd-4eee-eeee-dddddddddddd",
+      "username": "user24",
+      "email": "user24@test.com",
+      "password": "12345678",
+      "firstName": "Mahsa",
+      "lastName": "Bakhtiari",
+      "phone": "09190000024",
+      "gender": "female",
+      "maritalStatus": "married",
+      "role": "user",
+      "birthDate": "1994-08-18T00:00:00.000Z"
+    },
+    {
+      "id": "c55e9e85-eeee-4fff-ffff-eeeeeeeeeeee",
+      "username": "user25",
+      "email": "user25@test.com",
+      "password": "12345678",
+      "firstName": "Behzad",
+      "lastName": "Noori",
+      "phone": "09190000025",
+      "gender": "male",
+      "maritalStatus": "single",
+      "role": "user",
+      "birthDate": "1998-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "d66f9f86-ffff-4000-0000-ffffffffffff",
+      "username": "user26",
+      "email": "user26@test.com",
+      "password": "12345678",
+      "firstName": "Shirin",
+      "lastName": "Golzar",
+      "phone": "09190000026",
+      "gender": "female",
+      "maritalStatus": "single",
+      "role": "user",
+      "birthDate": "2001-05-20T00:00:00.000Z"
+    },
+    {
+      "id": "e77a0a87-0000-4111-1111-000000000000",
+      "username": "user27",
+      "email": "user27@test.com",
+      "password": "12345678",
+      "firstName": "Milad",
+      "lastName": "Rahmani",
+      "phone": "09190000027",
+      "gender": "male",
+      "maritalStatus": "married",
+      "role": "admin",
+      "birthDate": "1990-10-10T00:00:00.000Z"
+    },
+    {
+      "id": "f88b1b88-1111-4222-2222-111111111111",
+      "username": "user28",
+      "email": "user28@test.com",
+      "password": "12345678",
+      "firstName": "Roya",
+      "lastName": "Ghanbari",
+      "phone": "09190000028",
+      "gender": "female",
+      "maritalStatus": "single",
+      "role": "user",
+      "birthDate": "1999-09-23T00:00:00.000Z"
+    },
+    {
+      "id": "a99c2c89-2222-4333-3333-222222222222",
+      "username": "user29",
+      "email": "user29@test.com",
+      "password": "12345678",
+      "firstName": "Arman",
+      "lastName": "Khalili",
+      "phone": "09190000029",
+      "gender": "male",
+      "maritalStatus": "single",
+      "role": "user",
+      "birthDate": "2002-02-14T00:00:00.000Z"
+    },
+    {
+      "id": "b00d3d90-3333-4444-4444-333333333333",
+      "username": "user30",
+      "email": "user30@test.com",
+      "password": "12345678",
+      "firstName": "Hoda",
+      "lastName": "Rahimi",
+      "phone": "09190000030",
+      "gender": "female",
+      "maritalStatus": "married",
+      "role": "user",
+      "birthDate": "1996-12-31T00:00:00.000Z"
+    }
+  ]
+}

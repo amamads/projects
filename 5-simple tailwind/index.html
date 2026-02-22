@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>simple tailwind project</title>
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body>
+  <div id="app"
+    class="bg-bg-dark w-[85%] max-w-188 min-w-148 min-h-100 mx-auto mt-[5%] py-8 flex flex-col gap-8 rounded">
+
+    <div id="toolbar" class="w-[85%] mx-auto flex justify-center flex-row-reverse gap-4">
+      <input type="text" id="addInput"
+        class="bg-item-bg text-center grow-3 rounded placeholder:text-stone-400 focus:outline-1 focus:outline-pink"
+        placeholder="add new to do" spellcheck="false">
+      <button id="addBtn" class="toolBtn">Add</button>
+      <button id="clearDone" class="toolBtn">Clear done</button>
+      <button id="reset" class="toolBtn">Reset</button>
+    </div>
+
+    <div id="columns" class="w-[85%] mx-auto flex justify-between flex-row-reverse gap-8">
+
+      <section id="tasks" class="column">
+        <header class="colHead">
+          <h2 class="colTitle">Task list</h2>
+          <div class="counter">
+            <span class="counterLable">Item:</span>
+            <span class="taskCounterValue">0</span>
+          </div>
+        </header>
+        <h1 id="noTodo"
+          class="text-orange text-6xl absolute top-[34%] left-[50%] translate-x-[-50%] -rotate-45 text-nowrap">no todo
+        </h1>
+        <ul id="taskList"></ul>
+        <p class="tip text">Take the item and darw to the other column</p>
+      </section>
+
+      <section id="done" class="column">
+        <header class="colHead">
+          <h2 class="colTitle">Done list</h2>
+          <div class="counter">
+            <span class="counterLable">Item:</span>
+            <span class="doneCounterValue">0</span>
+          </div>
+        </header>
+        <ul id="doneList"></ul>
+        <p class="tip">You can drop here item</p>
+      </section>
+    </div>
+  </div>
+
+  <!-- <script type="module" src="/src/main.js"></script> -->
+</body>
+
+</html>

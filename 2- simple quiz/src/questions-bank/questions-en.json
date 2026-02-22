@@ -1,0 +1,304 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the capital of Iran?",
+      "options": ["Isfahan", "Tehran", "Shiraz", "Mashhad"],
+      "answer": "Tehran"
+    },
+    {
+      "id": 2,
+      "question": "Which is the largest continent in the world?",
+      "options": ["Africa", "Europe", "Asia", "America"],
+      "answer": "Asia"
+    },
+    {
+      "id": 3,
+      "question": "Which planet is known as the Red Planet?",
+      "options": ["Mars", "Venus", "Mercury", "Earth"],
+      "answer": "Mars"
+    },
+    {
+      "id": 4,
+      "question": "Who wrote the book Shahnameh?",
+      "options": ["Ferdowsi", "Saadi", "Rumi", "Khayyam"],
+      "answer": "Ferdowsi"
+    },
+    {
+      "id": 5,
+      "question": "Which animal is the largest mammal in the world?",
+      "options": ["Elephant", "Blue Whale", "Hippopotamus", "Shark"],
+      "answer": "Blue Whale"
+    },
+    {
+      "id": 6,
+      "question": "Who was the first human to walk on the moon?",
+      "options": ["Yuri Gagarin", "Neil Armstrong", "Michael Collins", "Buzz Aldrin"],
+      "answer": "Neil Armstrong"
+    },
+    {
+      "id": 7,
+      "question": "Which country is called the Land of the Rising Sun?",
+      "options": ["China", "India", "Japan", "South Korea"],
+      "answer": "Japan"
+    },
+    {
+      "id": 8,
+      "question": "Which is the largest lake in the world?",
+      "options": ["Caspian Sea", "Lake Victoria", "Lake Superior", "Lake Baikal"],
+      "answer": "Caspian Sea"
+    },
+    {
+      "id": 9,
+      "question": "What is the approximate speed of light?",
+      "options": ["300,000 km/s", "150,000 km/s", "100,000 km/s", "500,000 km/s"],
+      "answer": "300,000 km/s"
+    },
+    {
+      "id": 10,
+      "question": "Which country has the largest population in the world?",
+      "options": ["India", "China", "USA", "Indonesia"],
+      "answer": "China"
+    },
+    {
+      "id": 11,
+      "question": "What is the chemical symbol for gold?",
+      "options": ["Au", "Ag", "Fe", "Pt"],
+      "answer": "Au"
+    },
+    {
+      "id": 12,
+      "question": "What is the approximate height of Mount Damavand?",
+      "options": ["4600", "5600", "5670", "6100"],
+      "answer": "5670"
+    },
+    {
+      "id": 13,
+      "question": "Brazil is located in which continent?",
+      "options": ["Africa", "Asia", "South America", "Europe"],
+      "answer": "South America"
+    },
+    {
+      "id": 14,
+      "question": "Which Persian poet is known as 'Lesan-ol-Ghaib'?",
+      "options": ["Saadi", "Hafez", "Rumi", "Khayyam"],
+      "answer": "Hafez"
+    },
+    {
+      "id": 15,
+      "question": "Which animal is the fastest on land?",
+      "options": ["Horse", "Cheetah", "Rabbit", "Lion"],
+      "answer": "Cheetah"
+    },
+    {
+      "id": 16,
+      "question": "Which country hosted the 2020 Olympics?",
+      "options": ["China", "Brazil", "Japan", "England"],
+      "answer": "Japan"
+    },
+    {
+      "id": 17,
+      "question": "Which is the largest ocean in the world?",
+      "options": ["Indian Ocean", "Atlantic Ocean", "Pacific Ocean", "Arctic Ocean"],
+      "answer": "Pacific Ocean"
+    },
+    {
+      "id": 18,
+      "question": "Who is the president of the USA in 2025?",
+      "options": ["Donald Trump", "Joe Biden", "Barack Obama", "George Bush"],
+      "answer": "Joe Biden"
+    },
+    {
+      "id": 19,
+      "question": "Which is the largest planet in the Solar System?",
+      "options": ["Jupiter", "Saturn", "Uranus", "Neptune"],
+      "answer": "Jupiter"
+    },
+    {
+      "id": 20,
+      "question": "What is the currency of Japan?",
+      "options": ["Yen", "Dollar", "Euro", "Yuan"],
+      "answer": "Yen"
+    },
+    {
+      "id": 21,
+      "question": "Which country is famous for the Eiffel Tower?",
+      "options": ["Germany", "France", "Italy", "England"],
+      "answer": "France"
+    },
+    {
+      "id": 22,
+      "question": "Which scientist proposed the theory of relativity?",
+      "options": ["Newton", "Galileo", "Einstein", "Kepler"],
+      "answer": "Einstein"
+    },
+    {
+      "id": 23,
+      "question": "Which tree is the symbol of peace?",
+      "options": ["Fig", "Olive", "Oak", "Elm"],
+      "answer": "Olive"
+    },
+    {
+      "id": 24,
+      "question": "Which country has the largest Muslim population?",
+      "options": ["Iran", "Indonesia", "Pakistan", "Turkey"],
+      "answer": "Indonesia"
+    },
+    {
+      "id": 25,
+      "question": "Which continent is called the Dark Continent?",
+      "options": ["Asia", "Africa", "Europe", "America"],
+      "answer": "Africa"
+    },
+    {
+      "id": 26,
+      "question": "Which animal is called the King of the Jungle?",
+      "options": ["Tiger", "Lion", "Elephant", "Leopard"],
+      "answer": "Lion"
+    },
+    {
+      "id": 27,
+      "question": "Which country is famous for the Great Wall?",
+      "options": ["China", "India", "Japan", "South Korea"],
+      "answer": "China"
+    },
+    {
+      "id": 28,
+      "question": "Which is the highest mountain in the world?",
+      "options": ["Everest", "Damavand", "Aragats", "Alps"],
+      "answer": "Everest"
+    },
+    {
+      "id": 29,
+      "question": "Who is considered the first prophet in Abrahamic religions?",
+      "options": ["Moses", "Abraham", "Noah", "Adam"],
+      "answer": "Adam"
+    },
+    {
+      "id": 30,
+      "question": "In which continent is Canada located?",
+      "options": ["Asia", "Europe", "North America", "Oceania"],
+      "answer": "North America"
+    },
+    {
+      "id": 31,
+      "question": "In which continent does the Nile River flow?",
+      "options": ["Asia", "Africa", "Europe", "America"],
+      "answer": "Africa"
+    },
+    {
+      "id": 32,
+      "question": "Which country is the largest oil producer in the world?",
+      "options": ["USA", "Russia", "Saudi Arabia", "Iran"],
+      "answer": "USA"
+    },
+    {
+      "id": 33,
+      "question": "Which animal is a symbol of Australia?",
+      "options": ["Kangaroo", "Lion", "Panda", "Koala"],
+      "answer": "Kangaroo"
+    },
+    {
+      "id": 34,
+      "question": "Which scientist discovered gravity?",
+      "options": ["Galileo", "Einstein", "Newton", "Kepler"],
+      "answer": "Newton"
+    },
+    {
+      "id": 35,
+      "question": "What language do computers use to communicate?",
+      "options": ["English", "Binary (0 and 1)", "C++", "HTML"],
+      "answer": "Binary (0 and 1)"
+    },
+    {
+      "id": 36,
+      "question": "What are the colors of Germany's flag?",
+      "options": ["Red-White-Blue", "Green-White-Red", "Black-Red-Yellow", "Blue-Yellow"],
+      "answer": "Black-Red-Yellow"
+    },
+    {
+      "id": 37,
+      "question": "Which is the largest island in the world?",
+      "options": ["Australia", "Greenland", "Madagascar", "Iceland"],
+      "answer": "Greenland"
+    },
+    {
+      "id": 38,
+      "question": "Australia is located in the ... hemisphere.",
+      "options": ["Northern", "Southern", "Eastern", "Western"],
+      "answer": "Southern"
+    },
+    {
+      "id": 39,
+      "question": "Which country had the Mesopotamian civilization?",
+      "options": ["Iran", "China", "Egypt", "Iraq"],
+      "answer": "Iraq"
+    },
+    {
+      "id": 40,
+      "question": "What is the oldest university in the world?",
+      "options": ["Harvard", "Oxford", "Al-Qarawiyyin", "Sorbonne"],
+      "answer": "Al-Qarawiyyin"
+    },
+    {
+      "id": 41,
+      "question": "Which animal has the longest lifespan?",
+      "options": ["Turtle", "Elephant", "Whale", "Human"],
+      "answer": "Turtle"
+    },
+    {
+      "id": 42,
+      "question": "Switzerland is famous for what?",
+      "options": ["Watches", "Towers", "Carpets", "Tea"],
+      "answer": "Watches"
+    },
+    {
+      "id": 43,
+      "question": "What is the capital of Turkey?",
+      "options": ["Istanbul", "Ankara", "Izmir", "Bursa"],
+      "answer": "Ankara"
+    },
+    {
+      "id": 44,
+      "question": "Which country is famous for football?",
+      "options": ["Brazil", "Germany", "Argentina", "Italy"],
+      "answer": "Brazil"
+    },
+    {
+      "id": 45,
+      "question": "What is the capital of Russia?",
+      "options": ["St. Petersburg", "Moscow", "Kyiv", "Minsk"],
+      "answer": "Moscow"
+    },
+    {
+      "id": 46,
+      "question": "Which country has the largest population in Europe?",
+      "options": ["France", "Germany", "England", "Russia"],
+      "answer": "Russia"
+    },
+    {
+      "id": 47,
+      "question": "Who invented the electric light bulb?",
+      "options": ["Edison", "Einstein", "Tesla", "Newton"],
+      "answer": "Edison"
+    },
+    {
+      "id": 48,
+      "question": "Which planet has beautiful rings?",
+      "options": ["Saturn", "Jupiter", "Uranus", "Neptune"],
+      "answer": "Saturn"
+    },
+    {
+      "id": 49,
+      "question": "Which is the longest river in the world?",
+      "options": ["Nile", "Amazon", "Rhine", "Tigris"],
+      "answer": "Amazon"
+    },
+    {
+      "id": 50,
+      "question": "Which country is famous for pizza?",
+      "options": ["France", "Italy", "Spain", "Greece"],
+      "answer": "Italy"
+    }
+  ]
+}

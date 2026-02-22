@@ -1,0 +1,23 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[branch "master"]
+	gk-last-accessed = 2025-12-17T13:05:42.565Z
+	gk-last-modified = 2025-12-17T13:05:42.565Z
+	remote = origin
+	merge = refs/heads/master
+	vscode-merge-base = origin/master
+[remote "origin"]
+	url = https://github.com/amamads/E-Commerce-2.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	pushurl = https://github.com/amamads/E-Commerce-2.git
+[branch "feature-base"]
+	vscode-merge-base = origin/master
+	gk-last-accessed = 2026-02-08T07:01:21.882Z
+	gk-last-modified = 2026-01-01T06:58:41.157Z
+	remote = origin
+	merge = refs/heads/feature-base
